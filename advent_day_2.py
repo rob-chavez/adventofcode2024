@@ -1,5 +1,5 @@
 import numpy as np
-FILENAME = "/Users/blackbox/Desktop/advent2"
+FILENAME = "advent2"
 
 def is_sorted(level):
     return np.array_equal(level, np.sort(level)) or np.array_equal(level, np.sort(level)[::-1])
