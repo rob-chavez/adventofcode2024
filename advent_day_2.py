@@ -2,10 +2,9 @@ import numpy as np
 FILENAME = "/Users/blackbox/Desktop/advent2"
 
 def isSort(level):
-    isSorted = 0
     if(np.array_equal(level, np.sort(level)) or np.array_equal(level, -np.sort(-level))):
-        isSorted = 1
-    return isSorted
+        return 1
+    return 0
 
 def isGrad(level):
     k = 0
